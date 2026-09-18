@@ -1,0 +1,105 @@
+{
+  "model_name": "CMTSF-Net Multimodal Binary Classifier",
+  "version": "1.0.0-trained",
+  "status": "TRAINED",
+  "confidence_inconclusive_threshold": 65.0,
+  "labels": {
+    "0": "HUMAN",
+    "1": "AI_GENERATED"
+  },
+  "feature_names": [
+    "spectral_centroid_hz",
+    "spectral_rolloff_hz",
+    "spectral_flatness",
+    "high_freq_energy_ratio",
+    "f0_mean_hz",
+    "f0_variation_hz",
+    "energy_variance",
+    "zero_crossing_rate",
+    "rhythm_regularity",
+    "snr_db",
+    "noise_floor_dbfs",
+    "clipping_ratio"
+  ],
+  "scaler": {
+    "means": [
+      459.24788,
+      569.22743,
+      0.43843,
+      0.0,
+      203.89202,
+      10.38178,
+      0.00892,
+      0.17887,
+      0.5,
+      29.0713,
+      -36.20417,
+      7e-05
+    ],
+    "stds": [
+      94.18565,
+      237.83128,
+      0.0559,
+      1.0,
+      65.31502,
+      30.66316,
+      0.00664,
+      0.06246,
+      1.0,
+      5.47696,
+      4.25289,
+      0.0001
+    ]
+  },
+  "classifier": {
+    "weights": [
+      0.75718,
+      0.63182,
+      0.18325,
+      0.0,
+      0.34649,
+      0.16816,
+      -0.86372,
+      0.89085,
+      0.0,
+      -0.87867,
+      0.87309,
+      -0.23015
+    ],
+    "bias": 0.0466
+  },
+  "modality_groups": {
+    "spectral": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "prosodic": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "channel": [
+      9,
+      10,
+      11
+    ]
+  },
+  "metrics": {
+    "train_samples": 48,
+    "validation_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "test_confusion": {
+      "TP": 6,
+      "FP": 0,
+      "TN": 6,
+      "FN": 0
+    }
+  }
+}

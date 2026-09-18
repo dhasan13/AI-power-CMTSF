@@ -1,0 +1,6 @@
+{
+  "name": "CMTSF-Net - AI Voice Clone & Impersonation Prevention",
+  "description": "Contextual Multimodal Temporal Spectral Fusion Network for Real-Time AI Voice Cloning Detection and Impersonation Prevention",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

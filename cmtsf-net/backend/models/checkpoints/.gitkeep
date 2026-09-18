@@ -1,0 +1,4 @@
+# Place trained PyTorch model checkpoints here:
+# - spectral_cnn.pt
+# - prosodic_tcn.pt
+# - fusion_weights.pt

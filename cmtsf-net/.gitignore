@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# Audio & Checkpoints
+*.wav
+*.mp3
+models/checkpoints/*.pt
+!models/checkpoints/.gitkeep
